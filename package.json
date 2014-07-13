@@ -12,6 +12,7 @@
     "email": "wulf@firebase.com",
     "url": "https://github.com/katowulf"
   },
+  "private": true,
   "main": "app/index.js",
   "repository": {
     "type": "git",
