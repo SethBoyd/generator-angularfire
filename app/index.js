@@ -341,7 +341,7 @@ Generator.prototype._updateKarmaDeps = function(){
       }
    }
 
-   var destPath = path.join(process.cwd(), 'karma.conf.js');
+   var destPath = path.join(process.cwd(), 'test\karma.conf.js');
    var text = fs.readFileSync(destPath, 'utf8');
    this._.each(this.pkg.bower.default, addDep);
    if( this.configProps.simple ) {
